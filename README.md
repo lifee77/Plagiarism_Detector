@@ -1,6 +1,6 @@
 # Plagiarism_Detector
 This Program detects plagiarism using Counting Bloom Filters using a sequence of 4 words at a time (4-grams).
-This project was made as part of an assignment for CS110: Problem-Solving with Data Structures and Algorithms course at Minerva University.
+This project was made as part of an assignment for CS110: Problem-Solving with Data Structures and Algorithms course at Minerva University in Fall 2023.
 
 Counting Bloom Filters:
 	Bloom filters are probabilistic data structures that check whether a given element is a member of the set or not (Alsayed, 2020). It is probabilistic as its output isn’t always correct and it can give False positive results i.e. misattribute an element as part of the set. Counting Bloom filters (CBFs)  are extensions of Bloom filters that check how many times an element has been in the filter and update the counter array (Jain, 2022). While CBFs provide the functionality of counting the frequency of elements, they require more storage. For each bit of data in BF, we would use a byte (8 bits) in CBF. 
